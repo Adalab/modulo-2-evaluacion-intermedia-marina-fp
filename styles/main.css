@@ -28,6 +28,7 @@
 .attempt-input {
   margin-bottom: 10px;
   height: 30px;
+  padding-left: 5px;
 }
 .try-button {
   margin-bottom: 10px;
@@ -38,12 +39,16 @@
   background-color: teal;
   color: white;
 }
-.clue-input {
+.clue-field {
   margin-bottom: 10px;
   height: 30px;
   padding-left: 5px;
+  padding-top: 6px;
+  border: 1px solid grey;
 }
-.total-attempts-input {
+.total-attempts-field {
   height: 30px;
   padding-left: 5px;
+  padding-top: 6px;
+  border: 1px solid grey;
 }
