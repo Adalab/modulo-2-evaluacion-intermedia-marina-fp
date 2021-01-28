@@ -3,9 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles/main.css" />
-    <title></title>
+    <title>Adivina el número</title>
   </head>
-  <body>
+  <body class="page">
+    <h1 class="game-name">Adivina el número</h1>
+    <form class="game">
+      <label class="attempt-label" for="attempt"
+        >Introduce aquí tu número</label
+      >
+      <input class="attempt-input" id="attempt" type="number" name="attempt" />
+      <button class="try-button">Prueba</button>
+      <input
+        class="clue-input"
+        id="clue"
+        placeholder="Pista: Escribe el número y dale a Prueba"
+      />
+      <input
+        class="total-attempts-input"
+        id="total-attempts"
+        placeholder="Número de intentos: 0"
+      />
+    </form>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
